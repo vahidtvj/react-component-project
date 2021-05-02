@@ -1,4 +1,5 @@
-const basePath = process.env.NODE_ENV === 'production' ? '/react-lib' : ''
+const basePath =
+  process.env.NODE_ENV === 'production' ? '/react-component-project' : ''
 
 module.exports = {
   future: {

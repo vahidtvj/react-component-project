@@ -32,7 +32,7 @@ yarn demo:dev
 ### Deploying demo
 In order to deploy to GitHub Pages first change this line in `packages/demo/next.config.js` from:
 ```js
-const basePath = process.env.NODE_ENV === 'production' ? '/react-lib' : ''
+const basePath = process.env.NODE_ENV === 'production' ? '/react-component-project' : ''
 ```
 To:
 ```js

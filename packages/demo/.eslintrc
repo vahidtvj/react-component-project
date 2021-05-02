@@ -1,0 +1,14 @@
+// ESLint will automatically look in the directory of the file to be linted,
+// and in successive parent directories all the way up to the root directory of the filesystem
+// (unless root: true is specified)
+
+{
+  "extends": ["plugin:react-hooks/recommended"],
+  "ignorePatterns": ["next.config.js"],
+  "rules": {
+    // We will use TypeScript"s types for component props instead
+    // "react/prop-types": "off",
+    // No need to import React when using Next.js
+    "react/react-in-jsx-scope": "off"
+  }
+}
